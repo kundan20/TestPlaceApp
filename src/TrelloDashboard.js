@@ -5,7 +5,6 @@ import * as master from './shared/MasterData'
 import Modal from 'react-awesome-modal'
 import Column from './Column'
 import { DragDropContext } from 'react-beautiful-dnd'
-import Forms from './Forms'
 
 const TrelloDashboard = () => {
     const [ formData, setFormData ] = useState({})
